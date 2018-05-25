@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WifSign</title>
+</head>
+<body>
+
+<main>
+    <h1>欢迎使用Wif自助签名工具</h1>
+    <div id="app">
+        <input type="text" style="width:450px" id="wif" placeholder="私钥(Wif格式)" > <br/>
+        <textarea type="text" style="width:450px" id="message" placeholder="要签名的消息"></textarea> <br/>
+        结果: <br/>
+        <div id="result"></div> 
+        <button onclick="calculate()">计算</button>
+    </div>
+</main>
+
+<script src="bundle.js"></script>
+</body>
+</html>
